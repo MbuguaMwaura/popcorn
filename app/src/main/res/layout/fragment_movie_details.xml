@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".ui.MovieDetailsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <ImageView
+                android:id="@+id/posterBackDrop"
+                android:background="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/small"
+                />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/posterImage"
+            android:layout_width="200dp"
+            android:layout_marginTop="100dp"
+            android:layout_height="200dp"
+            android:src="@drawable/joker"/>
+
+        <TextView
+            android:id="@+id/movieDetailsTitle"
+            android:layout_marginTop="210dp"
+            android:layout_marginLeft="170dp"
+            android:textSize="25sp"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MOVIE NAME"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/watchlistBtn"
+            android:src="@drawable/ic_playlist_add_white_24dp"
+            android:layout_below="@+id/movieDetailsTitle"
+            android:layout_alignLeft="@+id/rating"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="28dp"/>
+
+        <TextView
+            android:layout_marginTop="283dp"
+            android:layout_marginLeft="170dp"
+            android:textSize="18sp"
+            android:id="@+id/rating"
+            android:textColor="@color/colorAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RATING"/>
+
+        <TextView
+            android:layout_width="350dp"
+            android:textColor="@color/white"
+            android:id="@+id/movieOverView"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/posterImage"
+            android:text="When a new toy called joins Woody and the gang a road trip alongside old and new friends reveals how big the world can be for a toy."
+            />
+
+    </RelativeLayout>
+
+
+
+
+
+</FrameLayout>

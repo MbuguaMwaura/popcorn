@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="170dp"
+        android:src="@drawable/deadpool" />
+
+    <ImageView
+        android:id="@+id/imageBtn"
+        android:layout_width="67dp"
+        android:layout_height="67dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginBottom="304dp"
+        android:src="@drawable/clapperboard" />
+
+    <TextView
+        android:id="@+id/line"
+
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:paddingTop="5dip"
+        android:layout_centerVertical="true"
+        android:gravity="center_horizontal"
+        android:layout_width="180dp"
+
+        android:layout_height="0.8dp"
+        android:background="#39d276" />
+
+
+    <ImageView
+        android:id="@+id/watchlist"
+        android:layout_width="94dp"
+        android:layout_height="78dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginBottom="176dp"
+        android:src="@drawable/ic_queue_play_next_grey_24dp" />
+
+
+
+</RelativeLayout>
